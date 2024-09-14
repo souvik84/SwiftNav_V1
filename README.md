@@ -11,7 +11,7 @@ SwiftNav is a zeroth order probabilistic global optimization algorithm for (not 
 SwiftNav is deployed as a custom annealing function used with MATLAB's simulannealbnd funtion. Users can leverage MATLAB's GUI to view the global optimization routine in real-time, or view the same via values logged on the command line.
 
 ## Examples
-The following table collects all the numerical experiments evaluated in our paper [link_to_paper]. Implementation details for all the examples are common are are provided in the Usage section. 
+The following table collects all the pre-loaded numerical experiments. Implementation details for all the examples are common are are provided in the Usage section. 
 
 | Experiment |
 |-----------------|
@@ -19,8 +19,8 @@ The following table collects all the numerical experiments evaluated in our pape
 | Levy Function   |
 | Quadratically constrained quartic problem   |
 | Process synthesis MINLP   |
-| Chebyshev center problem   |
-| Semi defininte problem (SDP) - Truss1   |
+| Rosenberg Function |
+| Shekel Function |
 
 
 ## Usage
