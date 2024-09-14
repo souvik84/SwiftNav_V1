@@ -11,7 +11,17 @@ SwiftNav is a zeroth order probabilistic global optimization algorithm for (not 
 SwiftNav is deployed as a custom annealing function used with MATLAB's simulannealbnd funtion. Users can leverage MATLAB's GUI to view the global optimization routine in real-time, or view the same via values logged on the command line.
 
 ## Examples
-The following table collects all the pre-loaded optimal numerical experiments. Implementation details for all the examples are given in their README.md files which can be found within their directories. Simply click and scroll down.
+The following table collects all the pre-loaded optimal numerical experiments. Implementation details for all the examples are common are are provided in the Usage section. 
+
+| Experiment |
+|-----------------|
+| Ackley Function   |
+| Levy Function   |
+| Quadratically constrained quartic problem   |
+| Process synthesis MINLP   |
+| Chebyshev center problem   |
+| Semi defininte problem (SDP) - Truss1   |
+
 
 ## Usage
 1. SwiftNav runs completely on MATLAB. To run any example, users are required to enter the dynamics of the problem as a function and save it as a .m MATLAB file of the same name. The only inputs to the file created should be -- the variables and the dimensions of the problem. For eg -
@@ -51,4 +61,6 @@ The following table collects all the pre-loaded optimal numerical experiments. I
 -  Progression of best values against iterations
 -  Progression of current values against iterations
 -  Progression of step-size against iterations
+
+Users can change "your_function_name" to any function they want to execute. For eg -- to run the Ackley function, simply replace "your_function_name" with "ackley".
 
