@@ -47,7 +47,7 @@ The following table collects all the pre-loaded numerical experiments. Implement
   -  step-size factor (delta)
   -  q value
     
-   Readers are referred to [link_of_paper] to know more about these values. The values of p, delta and q used in our experiments were 30, 2 and 50 respectively.
+   The values of p, delta and q used in our experiments were 30, 2 and 50 respectively. We have mentioned the details about each of these parameters in our paper.
 
   ![image](https://github.com/user-attachments/assets/abd262f2-4ddf-4da9-8088-2d897dca5178)
 
